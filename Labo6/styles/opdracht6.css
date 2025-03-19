@@ -1,0 +1,7 @@
+.checklist > .checked{
+    list-style: "✅";
+}
+
+.checklist > li{
+    list-style: "⬜";
+}

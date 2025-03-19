@@ -1,8 +1,6 @@
 a{
     background-image: url("../images/img.png");
-    background-size: contain;
     background-repeat: no-repeat;
-}
-a::before{
-    content: "";
+    background-size: contain;
+    padding-left: 20px;
 }
