@@ -1,0 +1,48 @@
+body{
+    width: 95%;
+    margin: 0 auto;
+    font-family: Verdana, "Arial", sans-serif;
+}
+
+.title{
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 6em;
+    padding: .5em;
+}
+
+.title > h1{
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+    padding: 0;
+}
+
+h1{
+    font-size: 1.6em;
+    text-decoration: underline;
+    color: darkslategrey;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: darkslategrey;
+    padding: .5em;
+}
+
+nav a{
+    text-decoration: none;
+    color: lightgreen;
+    font-weight: bold;
+}
+
+article{
+    padding: 2em .5em .5em .5em;
+    background-color: lightgrey;
+    margin: 10px;
+}
+
+
+
