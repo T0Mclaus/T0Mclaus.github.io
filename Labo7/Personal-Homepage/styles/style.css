@@ -1,0 +1,49 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: "Gill Sans MT", sans-serif;
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1{
+    font-weight: lighter;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+    font-size: 2.8rem;
+}
+
+h3{
+    font-size: 2rem ;
+}
+
+h2{
+    font-size: 2.4rem;
+    font-variant: small-caps;
+    font-weight: lighter;
+}
+
+section{
+    background-color: lightgrey;
+    padding: 1em;
+    margin: 1em 0 1em 0;
+}
+
+ul{
+    line-height: 1.6em;
+}
+
+li > table, tr{
+    border: 1px solid white;
+}
+
+.profielfoto{
+    border-radius: 0 50% 0 20%;
+}
+
+article:nth-child(1){
+    margin-top: 1em;
+}
