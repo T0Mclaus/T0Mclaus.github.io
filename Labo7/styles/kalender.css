@@ -1,0 +1,39 @@
+table{
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px dotted black;
+}
+
+thead tr:first-child{
+    background-color: rgb(170,170,200);
+}
+
+thead tr:last-child{
+    background-color: rgb(35,37,70);
+    color: rgb(200,190,240);;
+}
+
+thead tr:last-child > th{
+    border: 1px dotted rgb(200,190,240);
+}
+
+thead tr:last-child > th{
+    font-weight: normal;
+}
+
+tbody td:first-child, tbody td:last-child{
+    background-color: rgb(255,220,220);
+}
+
+tbody > tr:first-child >  td:first-child, tbody > tr:last-child > td:nth-child(n + 5){
+    color: grey;
+    background-color: lightgrey;
+}
+
+.vrij{
+    background-color: rgb(250,120,120);
+}
+
