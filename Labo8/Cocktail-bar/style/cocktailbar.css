@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.2em;
+    font-family: Verdana,Helvetica,Arial, sans-serif;
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 70% 1fr;
+    grid-column-gap: 4%;
+    grid-row-gap: 10px;
+    grid-template-areas: "a a" "b c" "d d";
+}
+
+h1, h2{
+    color: #007e7e;
+}
+
+h1{
+    font-size: 1.5em;
+}
+
+h2{
+    font-size: 1.3em;
+}
+
+.banner{
+    grid-area: a;
+    height: auto;
+}
+
+.banner img{
+    width: 30%;
+}
+
+.banner p{
+    text-align: center;
+
+}
+
+footer{
+    font-size: .5em;
+    grid-area: d;
+    text-align: center;
+}
+
+#side{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
+    grid-area: c;
+    border: 1px solid #007e7e;
+    padding: 5%;
+    background-image: url("../images/cocktail.gif");
+    background-repeat: repeat-x;
+    background-size: 50px;
+}
+
+#side p{
+    margin: 1em 0 1em 0;
+}
+
+#side h1{
+    color: black;
+    padding-top: 30px;
+}
+
+#side h2{
+    color: darkred;
+}
+
+.content{
+    grid-area: b;
+}
+
+p{
+    margin: 1.6em 0 1.6em 0;
+}
+
+a{
+    color: inherit;
+}
+
+#guarantee{
+    margin: 30px;
+    padding: 20px 50px 20px 50px;
+    color: #444444;
+    background-color: #a7cece;
+    border: 2px dotted white;
+    background-image: url("../images/background.gif");
+    background-repeat: no-repeat;
+    background-size: 50px;
+    font-style: italic;
+    line-height: 2em;
+}
+
+ul{
+    list-style-position: inside;
+}
+
+#side a:hover{
+    background-color: brown;
+}
+
+
+
+
+
