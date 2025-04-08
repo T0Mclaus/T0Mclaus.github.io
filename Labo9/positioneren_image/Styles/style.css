@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    font-size: 1.25em;
+
+}
+
+main article{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    clear: both;
+}
+
+p{
+    min-height: 180px;
+    margin-top: 20px;
+}
+
+main article:nth-child(2n + 1) img{
+    float: left;
+    margin-right: 10px;
+}
+
+main article:nth-child(2n) img{
+    float: right;
+    margin-left: 10px;
+}
