@@ -1,0 +1,7 @@
+.row > div {
+    background-color: lightgrey;
+}
+
+.row > div:nth-child(2){
+    background-color: grey;
+}
