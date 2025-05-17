@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#picker{
+    display: flex;
+    flex-flow: row;
+    border: 4px solid lightgrey;
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+}
+
+label{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    padding: 5px 0 5px 0;
+}
+
+input, p{
+
+}
+
+p{
+    width: 100px;
+    text-align: center;
+    
+}
+
+#swatch{
+    width: 100px;
+    height: auto;
+    border: 1px solid darkslategrey;
+    border-radius: 2px;
+}

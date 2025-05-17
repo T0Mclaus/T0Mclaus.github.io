@@ -1,0 +1,28 @@
+body{
+    font-family: sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    width: 100%;
+    border: 1px solid lightgrey;
+    background-color: white;
+    box-shadow: rgba(0,0,0,0.2) 0px 10px 20px;
+    border-radius: 2px;
+}
+
+li > a{
+    display: block;
+    width: 100%;
+    padding: 20px 0 20px 0;
+}
