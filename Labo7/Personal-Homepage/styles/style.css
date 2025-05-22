@@ -50,7 +50,7 @@ article:nth-child(1){
 
 table{
 
-
+    box-sizing: border-box;
     border-collapse: collapse;
     border: 2px solid blue;
     border-radius: 10px;
