@@ -1,0 +1,19 @@
+.borgcube{
+    background-image: url("../images/space.jpg") ;
+    background-size: cover;
+    color: white;
+}
+
+#cube{
+    background-color: grey;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: auto;
+    right: auto;
+    z-index: 0;
+}
+
+div > button {
+    z-index: 999;
+}
